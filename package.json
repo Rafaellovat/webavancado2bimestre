@@ -10,18 +10,22 @@
   "license": "ISC",
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",
+    "@types/bcryptjs": "^2.4.6",
     "@types/express": "^4.17.21",
     "@types/jsonwebtoken": "^9.0.6",
     "@types/node": "^20.14.2",
     "install": "^0.13.0",
     "prisma": "^5.15.0",
     "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^5.4.5"
   },
-  "description": "",
+  "description": "As seguintes extensões precisam ser instaladas! Prisma ORM. Typescript Express, bcrypt, jsonwebtoken.",
   "dependencies": {
     "@prisma/client": "^5.15.0",
     "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2"
   }
 }
